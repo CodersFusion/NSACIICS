@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.login"
+    android:background="@drawable/bcgrd"
+    android:orientation="vertical">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="User Email"
+        android:textColorHint="#212121"
+        android:textColor="#070606"
+        android:inputType="textEmailAddress"
+        android:layout_margin="10dp"
+        android:id="@+id/loginemail"
+        />
+    <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="User Password"
+    android:textColorHint="#212121"
+    android:textColor="#070606"
+    android:inputType="textPassword"
+    android:layout_margin="10dp"
+    android:id="@+id/loginpswd"
+    />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginStart="300dp"
+        android:background="#79043A"
+        android:textColor="#ffffff"
+        android:textSize="16dp"
+        android:id="@+id/userlogin"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You don't have Account"
+        android:layout_marginStart="230dp"
+        android:layout_marginVertical="10dp"
+        android:textSize="16sp"
+        android:id="@+id/register"
+        android:textColor="#79043A"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forget Password"
+        android:layout_marginStart="280dp"
+        android:layout_marginVertical="5dp"
+        android:textSize="16sp"
+        android:id="@+id/frgtpswd"
+        android:textColor="#79043A"
+        />
+</LinearLayout>
