@@ -30,6 +30,9 @@ public class Login extends AppCompatActivity implements SignUp.OnFragmentInterac
             @Override
             public void onClick(View v) {
                 FragmentManager manager = getSupportFragmentManager();
+
+
+
                 FragmentTransaction transaction = manager.beginTransaction();
                 transaction.replace(R.id.forms, new SignUp());
                 transaction.addToBackStack(null);
